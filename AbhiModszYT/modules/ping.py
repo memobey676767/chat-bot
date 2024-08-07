@@ -15,7 +15,7 @@ from AbhiModszYT.database.users import add_served_user
 from AbhiModszYT.modules.helpers import PNG_BTN
 
 
-@dev.on_message(filters.command("ping", prefixes=["+", "/", "-", "?", "$", "&"]))
+@dev.on_message(filters.command("pingkk", prefixes=["+", "/", "-", "?", "$", "&"]))
 async def ping(_, message: Message):
     await message.reply_sticker(sticker=random.choice(STICKER))
     start = datetime.now()
