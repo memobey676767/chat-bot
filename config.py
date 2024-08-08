@@ -4,14 +4,16 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "12227067"))
-API_HASH = getenv("API_HASH", "b463bedd791aa733ae2297e6520302fe")
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-OWNER_ID = int(getenv("OWNER_ID", "6204761408"))
-MONGO_URL = getenv("MONGO_URL", None)
-SUPPORT_GRP = getenv("SUPPORT_GRP", "samuelsfriends")
-UPDATE_CHNL = getenv("UPDATE_CHNL", "AbhiModszYT_Return")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "AM_YTBott")
+API_ID = int(getenv("API_ID", "29772838"))
+API_HASH = getenv("API_HASH", "15ce514f4f3fcea70d7a49dc5064b839")
+OWNER_ID = int(getenv("OWNER_ID", "7268753735"))
+STRING_SESSION = getenv("STRING_SESSION", "BAHGTCYAAVN4trMHSPtHV36TV8vz4ABJGVXPdoOJaqsGVlZ67fWglEbuxBkng8sw8txTSlQg-OJHD-X9RVIwqIS9z1EobbXcpKIDGm6f800eBBlHyE9kfzO9nTHuCMQHmGc6UA4Itq9UWk9vxgvQhb8hsPwpE4GU3UR_3eFhZaXG16SXJVpWQPr0NUMaMjNubjhj8NnmANtDugKPlMxRd6Ao4YD5GNGTUstpvU-nYaChQUF9I3gYjTARqde8_5TKsUSg7dSwiemuvEvixhl5ANyUcfqHQPUiHoYnj7Fq5EwycCCq36Dgv6cRc_L_l7EG5N7I-2z-N4ZLgzFWZaOgCdEW8b8O-QAAAAGxQGFHAA")
+MONGO_URL = getenv("MONGO_URL", "mongodb+srv://kurt67143:nays@cluster0.vjg7bma.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+SUPPORT_GRP = getenv("SUPPORT_GRP", "gecemavisisohbett")
+UPDATE_CHNL = getenv("UPDATE_CHNL", "kumsaldestekkanal")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "nazli_hanim_diyeceksiniz")
+
+
 
 # Random Start Images
 IMG = [
